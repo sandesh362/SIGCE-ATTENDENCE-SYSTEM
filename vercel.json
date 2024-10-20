@@ -5,6 +5,11 @@
     ],
     "routes": [
       { "src": "/(.*)", "dest": "app.py" }
-    ]
+    ],
+    "build": {
+      "env": {
+        "FLASK_ENV": "production"
+      }
+    }
   }
   
